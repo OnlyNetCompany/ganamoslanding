@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ganamosnet | Oficial</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="estilo.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/logo_sin_nombre.png"
+      type="image/x-icon"
+    />
+
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js',
+      );
+    </script>
+  </head>
+
+  <body>
+    <div class="bg-glow"></div>
+
+    <main class="container">
+      <header class="logo-section">
+        <img
+          src="./img/logo_con_nombre.png"
+          alt="Ganamosnet Logo"
+          class="main-logo"
+        />
+      </header>
+
+      <section class="card">
+        <div class="headline">
+          <h1>DA CLICK EN CONTACTARSE</h1>
+          <h2 class="accent-text">Y COMENZÁ A GANAR</h2>
+        </div>
+
+        <div class="form-wrapper">
+          <!-- CTA slot: place the button here. -->
+          <div class="cta-slot" id="ctaSlot"></div>
+        </div>
+
+        <div class="features-info">
+          <div class="badge">Mínimo de carga: <span>$5.000</span></div>
+          <div class="divider"></div>
+          <ul class="benefit-list">
+            <li>PAGOS AL INSTANTE</li>
+            <li>TRANSACCIONES INMEDIATAS</li>
+            <li>SOPORTE 24/7</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- CTA embed: add this landing's script here. -->
+  </body>
+</html>
