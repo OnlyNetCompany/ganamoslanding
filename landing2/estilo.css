@@ -259,3 +259,11 @@ body {
 .cta-slot {
   min-height: 56px;
 }
+
+.agent-note {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-700);
+}
